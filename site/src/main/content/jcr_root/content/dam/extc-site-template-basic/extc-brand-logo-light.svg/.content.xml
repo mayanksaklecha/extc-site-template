@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="4b818f16-a38e-410a-82a5-4f308d876dde">
+    <jcr:content
+        dam:assetState="processed"
+        dam:processingId="32e5222a-156d-47b5-9899-db8c941106ab"
+        dam:processingRenditions="[cqdam.text.txt,cqdam.metadata.xml,cqdam.machine.metadata.json,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cq5dam.thumbnail.140.100.png]"
+        dam:processingRequestedDate="{Date}2021-03-19T13:55:19.306Z"
+        dam:runPostProcess="{Boolean}true"
+        dam:scene7BatchId="ptzESngBAABF_G9_GX_ED7OQb8YouXaa"
+        dam:scene7Failure="Failed to submit upload job"
+        dam:scene7RequestID="32e5222a-156d-47b5-9899-db8c941106ab"
+        jcr:lastModified="{Date}2021-03-19T13:55:40.839Z"
+        jcr:lastModifiedBy="Mayank.Saklecha@cognizant.com"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2021-03-19T13:55:28.686Z"
+            dam:sha1="8bdbbc41ceb2bacebfb1fdf0f23050ba2c2ffc2d"
+            dam:size="{Long}240"
+            dc:format="image/svg+xml"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

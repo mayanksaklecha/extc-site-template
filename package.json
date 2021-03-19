@@ -1,0 +1,21 @@
+{
+  "name": "extc-site-template-basic",
+  "version": "1.0.8",
+  "description": "Exotic Resorts base site which acts as a starting point for creating various resort sites",
+  "license": "MIT License, Copyright 2021 Cognizant Tech Solutions",
+  "scripts": {
+    "build": "aem-site-template-builder",
+    "deploy": "SITE_TEMPLATE_ZIP=\"$(node -p -e \"require('./package.json').name\")-$(node -p -e \"require('./package.json').version\").zip\" && curl -u admin:admin -F file=$SITE_TEMPLATE_ZIP http://localhost:4502/conf/global/site-templates.import.html"
+  },
+  "devDependencies": {
+    "@adobe/aem-site-template-builder": "2.0.0"
+  },
+  "siteTemplate": {
+    "title": "Exortic Resorts Base Site Template",
+    "createdBy": "Cognizant Tech. Solutions US (Mayank Saklecha, Sushil Kumar)",
+    "useCases": ["Creating microsites for various resorts for a given Hotel/ Resort Brand. Each resort owner will have an opportunity to create a unique digital experience for their customers while confirming to broder brand guidelines"],
+    "docsUrl": "",
+    "showcaseUrl": "",
+    "sourceRepositoryUrl": "https://github.com/mayanksaklecha/extc-site-template"
+  }
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/conf/extc-site-template-basic/settings/wcm/templates/landing-page-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:uuid="93301b88-68f4-411d-a001-e9cdc6f76812"
+        sling:resourceType="core/wcm/components/page/v2/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container"
+            layout="responsiveGrid">
+            <experiencefragment
+                cq:styleIds="[1568592491109]"
+                jcr:created="{Date}2019-09-15T17:10:36.311-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-03-01T22:01:43.826-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/extc-site-template-basic/en/site/header/master"/>
+            <carousel
+                cq:styleIds="[1555545421827]"
+                jcr:created="{Date}2019-10-24T14:45:16.689-07:00"
+                jcr:createdBy="admin"
+                editable="{Boolean}true"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/carousel/v1/carousel"
+                autopauseDisabled="false"
+                autoplay="false"
+                delay="5000"/>
+            <container
+                cq:styleIds="[1554340406437]"
+                jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-03-15T19:47:09.893-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                editable="{Boolean}true"/>
+            <experiencefragment_1327121818
+                cq:styleIds="[1568592503946]"
+                jcr:created="{Date}2019-09-18T14:30:22.985-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-09-18T14:30:37.537-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/extc-site-template-basic/en/site/footer/master"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

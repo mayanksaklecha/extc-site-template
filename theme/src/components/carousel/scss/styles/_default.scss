@@ -1,0 +1,60 @@
+
+ /* EXTC Carousel - default.less */
+
+ .cmp-carousel {
+
+    .cmp-carousel__content {
+
+    }
+
+    .cmp-carousel__item {
+        @include animated();
+        @include fadeIn();
+
+        display: none;
+        &--active {
+            display: block;
+        }
+    }
+
+    .cmp-carousel__indicators {
+        margin-top: 0.5em;
+        cursor: pointer;
+    }
+
+    .cmp-carousel__actions {
+        float: right;
+        margin-top: 0;
+    }
+
+    .cmp-carousel__action {
+        border: none;
+        padding-right:0px;
+        margin-right: 1em;
+        background:none;
+    }
+
+    .cmp-carousel__action-text {
+        display: none;
+    }
+
+    .cmp-carousel__action-icon {
+        cursor: pointer;
+    }
+
+    .cmp-carousel__action--previous {
+        .cmp-carousel__action-icon {
+            &:before {
+                content: $extcicon-left-arrow; 
+            }
+        }
+    }
+
+    .cmp-carousel__action--next {
+        .cmp-carousel__action-icon {
+            &:before {
+                content: $extcicon-right-arrow; 
+            }
+        }
+    }
+}

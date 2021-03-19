@@ -1,0 +1,198 @@
+//** EXTC Specific Fonts
+$icomoon-font-family: "extc-icon-font" !default;
+$icomoon-font-path: "../resources/fonts" !default;
+
+$extcicon-menu: "\e916";
+$extcicon-google: "\e900";
+$extcicon-twitter: "\e901";
+$extcicon-facebook: "\e902";
+$extcicon-instagram: "\e903";
+$extcicon-social-share: "\e904";
+$extcicon-map: "\e905";
+$extcicon-alert: "\e906";
+$extcicon-download: "\e907";
+$extcicon-info: "\e908";
+$extcicon-email: "\e909";
+$extcicon-comment: "\e90a";
+$extcicon-share: "\e90b";
+$extcicon-user: "\e90c";
+$extcicon-home: "\e90d";
+$extcicon-right-arrow: "\e90e";
+$extcicon-left-arrow: "\e90f";
+$extcicon-minus: "\e910";
+$extcicon-plus: "\e911";
+$extcicon-location: "\e912";
+$extcicon-search: "\e913";
+$extcicon-delete: "\e914";
+$extcicon-cart: "\e915";
+$extcicon-lock: "\e98f";
+$extcicon-unlocked: "\e990";
+$extcicon-play3: "\ea1c";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@mixin extciconstyle(){
+   /* use !important to prevent issues with browser extensions that change fonts */
+   font-family: '#{$icomoon-font-family}' !important;
+   speak: none;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1;
+   font-size: 1.25rem;
+   /* Better Font Rendering =========== */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+[class$="__icon"], [class*="__icon"], [class$="-icon"], [class*="-icon"]{
+  @include extciconstyle();
+}
+
+.extcicon-menu {
+  &:before {
+    content: $extcicon-menu; 
+  }
+}
+.extcicon-google {
+  &:before {
+    content: $extcicon-google; 
+  }
+}
+.extcicon-twitter {
+  &:before {
+    content: $extcicon-twitter; 
+  }
+}
+.extcicon-facebook {
+  &:before {
+    content: $extcicon-facebook; 
+  }
+}
+.extcicon-instagram {
+  &:before {
+    content: $extcicon-instagram; 
+  }
+}
+.extcicon-social-share {
+  &:before {
+    content: $extcicon-social-share; 
+  }
+}
+.extcicon-map {
+  &:before {
+    content: $extcicon-map; 
+  }
+}
+.extcicon-alert {
+  &:before {
+    content: $extcicon-alert; 
+  }
+}
+.extcicon-download {
+  &:before {
+    content: $extcicon-download; 
+  }
+}
+.extcicon-info {
+  &:before {
+    content: $extcicon-info; 
+  }
+}
+.extcicon-email {
+  &:before {
+    content: $extcicon-email; 
+  }
+}
+.extcicon-comment {
+  &:before {
+    content: $extcicon-comment; 
+  }
+}
+.extcicon-share {
+  &:before {
+    content: $extcicon-share; 
+  }
+}
+.extcicon-user {
+  &:before {
+    content: $extcicon-user; 
+  }
+}
+.extcicon-home {
+  &:before {
+    content: $extcicon-home; 
+  }
+}
+.extcicon-right-arrow {
+  &:before {
+    content: $extcicon-right-arrow; 
+  }
+}
+.extcicon-left-arrow {
+  &:before {
+    content: $extcicon-left-arrow; 
+  }
+}
+.extcicon-minus {
+  &:before {
+    content: $extcicon-minus; 
+  }
+}
+.extcicon-plus {
+  &:before {
+    content: $extcicon-plus; 
+  }
+}
+.extcicon-location {
+  &:before {
+    content: $extcicon-location; 
+  }
+}
+.extcicon-search {
+  &:before {
+    content: $extcicon-search; 
+  }
+}
+.extcicon-delete {
+  &:before {
+    content: $extcicon-delete; 
+  }
+}
+.extcicon-cart {
+  &:before {
+    content: $extcicon-cart; 
+  }
+}
+
+.extcicon-menu {
+  &:before {
+    content: $extcicon-menu; 
+  }
+}
+.extcicon-lock {
+  &:before {
+    content: $extcicon-lock; 
+  }
+}
+.extcicon-unlocked {
+  &:before {
+    content: $extcicon-unlocked; 
+  }
+}
+.extcicon-play3 {
+  &:before {
+    content: $extcicon-play3; 
+  }
+}
+
