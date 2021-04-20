@@ -1,6 +1,6 @@
 {
   "name": "extc-site-template-basic",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Exotic Resorts base site which acts as a starting point for creating various resort sites",
   "license": "MIT License, Copyright 2021 Cognizant Tech Solutions",
   "scripts": {
